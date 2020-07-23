@@ -9,5 +9,5 @@ def getStockValue(keyword):
     tdArray=tr[0].select('td')
     return tdArray[1].find_all(text=True)[0]
 
-lastPrice=getStockValue('Axis Bank')
+lastPrice=getStockValue('TCS')
 print(lastPrice)
